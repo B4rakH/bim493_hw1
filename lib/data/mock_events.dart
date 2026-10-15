@@ -17,7 +17,7 @@ List<Event> getInitialEvents() {
       venue: 'Engineering Faculty, Computer Lab 3',
       description:
           'Join student developers, roboticists, and designers for a collaborative 24-hour hackathon. Teams will build innovative artificial intelligence prototypes and autonomous robotics applications.',
-      imagePath: 'assets/images/tech.jpg',
+      imagePath: 'assets/images/hackathon.jpg',
       totalCapacity: 50,
       availablePlaces: 12,
       isFavorite: false,
@@ -31,7 +31,7 @@ List<Event> getInitialEvents() {
       venue: 'Faculty of Fine Arts, Central Exhibition Hall',
       description:
           'Experience contemporary paintings, sculptures, and digital multimedia works created by university art students. Meet the student artists and participate in interactive studio discussions.',
-      imagePath: 'assets/images/arts.jpg',
+      imagePath: 'assets/images/art_showcase.jpg',
       totalCapacity: 40,
       availablePlaces: 1, // Exactly one available place initially
       isFavorite: false,
@@ -45,7 +45,7 @@ List<Event> getInitialEvents() {
       venue: 'University Indoor Sports Complex, Court A',
       description:
           'The crowning match of the autumn inter-faculty tournament! Come support your department basketball squad in this high-intensity final match. Live commentary and fan competitions included.',
-      imagePath: 'assets/images/sports.jpg',
+      imagePath: 'assets/images/basketball.jpg',
       totalCapacity: 100,
       availablePlaces: 0, // Initially full event
       isFavorite: false,
@@ -59,7 +59,7 @@ List<Event> getInitialEvents() {
       venue: 'Information Technology Building, Seminar Room 102',
       description:
           'A hands-on technical workshop delving into Flutter UI composition, reactive state handling, and cross-platform mobile best practices for computer science and engineering students.',
-      imagePath: 'assets/images/tech.jpg',
+      imagePath: 'assets/images/flutter_workshop.jpg',
       totalCapacity: 60,
       availablePlaces: 25,
       isFavorite: false,
@@ -73,7 +73,7 @@ List<Event> getInitialEvents() {
       venue: 'University Grand Auditorium',
       description:
           'An inspiring musical evening featuring the student philharmonic orchestra and guest soloists performing selected classical overtures, film soundtracks, and choral compositions.',
-      imagePath: 'assets/images/arts.jpg',
+      imagePath: 'assets/images/orchestra.jpg',
       totalCapacity: 80,
       availablePlaces: 18,
       isFavorite: false,
@@ -87,7 +87,7 @@ List<Event> getInitialEvents() {
       venue: 'Campus Gymnasium, Court 2',
       description:
           'Cheer on peer student athletes during the final round of the inter-department volleyball tournament. Fast-paced rallies, enthusiastic campus spirit, and healthy competition.',
-      imagePath: 'assets/images/sports.jpg',
+      imagePath: 'assets/images/volleyball.jpg',
       totalCapacity: 45,
       availablePlaces: 8,
       isFavorite: false,
