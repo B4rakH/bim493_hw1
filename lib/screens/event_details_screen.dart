@@ -474,21 +474,15 @@ class _EventDetailsScreenState extends State<EventDetailsScreen> {
 
     // If user has not joined and event is Full: marked Full and cannot be joined
     if (_event.isFull) {
-      return FilledButton.tonal(
+      return FilledButton.tonalIcon(
         onPressed: null, // Disabled
         style: FilledButton.styleFrom(
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         ),
-        child: const Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.block, size: 18),
-            SizedBox(width: 8),
-            Text(
-              'Event Full (No Available Places)',
-              style: TextStyle(fontWeight: FontWeight.bold),
-            ),
-          ],
+        icon: const Icon(Icons.block, size: 18),
+        label: const Text(
+          'Event Full',
+          style: TextStyle(fontWeight: FontWeight.bold),
         ),
       );
     }
