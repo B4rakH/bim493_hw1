@@ -30,7 +30,7 @@ This project was built and validated on **Flutter 3.47.6** on the **Stable chann
 ### Setup Commands
 1. Clone the repository and navigate into the project directory:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/B4rakH/bim493_hw1.git
    cd bim493_hw1
    ```
 2. Fetch dependencies and verify asset registration:
