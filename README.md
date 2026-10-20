@@ -86,7 +86,7 @@ bim493_hw1/
 ├── screenshots/                  # Required assignment screenshots
 │   ├── explore.png
 │   ├── details.png
-│   ├── favorites.png
+│   ├── my_favorites.png
 │   └── my_events.png
 ├── test/
 │   └── widget_test.dart          # 8 automated tests covering all edge cases
